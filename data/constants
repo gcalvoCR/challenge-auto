@@ -1,0 +1,5 @@
+module.exports = {
+    unsecure_url: 'http://hoodoo.digital',
+    secure_url: 'https://hoodoo.digital/',
+    title: 'Adobe Experience Manager'
+}
