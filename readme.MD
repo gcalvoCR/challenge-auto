@@ -18,16 +18,19 @@ In order to run the solution you have to:
   - Navigate to the root of your project `(using cd)`.
   - Type `npm install` and hit enter.
 - Run the automation by typing `npm run test`.
-- Generate the report `npm run report` and voila.
+- Generate the report `npm run report` and voilà.
 ___
 
 # Explanation of the solution
 
 I am proposing to use WebdriverIO for the following reasons:
 - Ease of set up and configure.
+- It aligns with the technologies that the company works with.
 - It is front-end friendly. Due to its javascript nature, front-end developers could easily contribute to the project.
 - It uses selenium under the hood but we don't need deal with it directly.
-- I also wanted to generate a report, I found Allure very easy to integrate and that also made lean towards WebdriverIO.
+- It is less verbose than Java.
+- It integrates with many libraries easily.
+- It has great documentation / support.
 ___
 
 # The code structure
@@ -50,7 +53,7 @@ ___
 
 # Notes
 
-## Making thing easy
+## Making things easy
 - I added some 2 scripts to the package.json to make the execution easy.
   - `"test": "npx wdio run ./wdio.conf.js"`
   - `"report": "npx allure generate allure-results && npx allure open"`
