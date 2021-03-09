@@ -6,7 +6,7 @@ ___
 # Steps to run the solution
 ## 1. Pre-requisites
 Make sure you have installed:
-- git
+- Git
 - Node.js, in case you don't have it check this [link](https://nodejs.org/en/)
 - Chrome version 89
 
@@ -54,7 +54,7 @@ ___
 # Notes
 
 ## Making things easy
-- I added some 2 scripts to the package.json to make the execution easy.
+- I added 2 scripts to the package.json to make the execution easy.
   - `"test": "npx wdio run ./wdio.conf.js"`
   - `"report": "npx allure generate allure-results && npx allure open"`
 
